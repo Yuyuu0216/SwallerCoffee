@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body{
+    background-color: #B9D4CB;
+}
+
+
+//header
+header{
+    display: flex;
+    background-color: #AF9F8C;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 12vh;
+    border-radius: 2rem;
+    margin: 1rem;
+    position: sticky;
+    top: 1rem;
+    z-index: 2;
+    div.logo{
+        display: flex;
+        flex: 2 1 2rem;
+        align-items: center;
+        margin-left: 2rem;
+        img{
+            width: 3vw;
+            height: 3vw;
+            flex: 5 1 2rem;
+        }
+        h1{
+            font-size: 3rem;
+            flex: 18 1 2rem;
+        }
+    }
+    nav{
+        flex: 3 1 3rem;
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            li{
+                a{
+                    color: #474545;
+                    text-decoration: none;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+                a.OnPage{
+                    color: #703F3F;
+                    text-decoration: none;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+//TopBar
+section.top{
+    display: flex;
+    align-items: center;
+    background-color: #71675E;
+    height: 14vh;
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    div.tittle{
+        display: flex;
+        align-items: center;
+        margin-left: 10rem;
+        p.FirstFont{
+            font-size: 4rem;
+            color: white;
+            font-weight: bold;
+        }
+        p.MainFont{
+            font-size: 3rem;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
+
+//MainCSS
+main{
+    display: flex;
+    justify-content: center;
+    section.left{
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+        img.LeftPic{
+            width: 22vw;
+            height: 58vh;
+            border-radius: 2rem;
+            margin: 1rem;
+        }
+        div.Block1{
+            width: 22vw;
+            height: 58vh;
+            border-radius: 2rem;
+            background-color: #AF9F8C;
+            display: flex;
+            flex-direction: column;
+            div.Tittlee{
+                display: flex;
+                color: #333030;
+                font-weight: bold;
+                align-items: center;
+                justify-content: center;
+                div.tittle1{
+                    font-size: 4rem;
+                }
+                div.tittle2{
+                    font-size: 2.5rem;
+                }
+            }
+            div.NewCommodity{
+                display: flex;
+                justify-content: center;
+                color: #474545;
+                font-weight: bold;
+                font-size: 2rem;
+            }
+            div.NewCommodityMain{
+                display: flex;
+                justify-content: center;
+                color: white;
+                font-size: 1.9rem;
+                line-height: 2.5rem;
+                margin: 2rem;
+                font-weight: bold;
+            }
+        }
+    }
+    section.right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        img.RightPic{
+            width: 32vw;
+            height: 32vh;
+            border-radius: 2rem;
+        }
+        div.Block2{
+            width: 37vw;
+            height: 26vh;
+            border-radius: 2rem;
+            margin: 1rem;
+            background-color: #AF9F8C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            div.tittle3{
+                color: #333030;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            div.tittle3Main{
+                text-align: left;
+                color: #FFFFFF;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+//FooterCSS
+footer{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    background-color: #AF9F8C;
+    border-radius: 2rem;
+    margin: 1rem;
+    p{
+        flex: 3 1 2rem;
+        font-size: 3rem;
+        margin-left: 2rem;
+        color: #474545;
+        font-weight: bold;
+    }
+    div.SoMe{
+        margin: 2rem;
+        flex: 1 1 2rem;
+        img.Facebook{
+            margin: 1rem;
+            width: 3rem;
+        }
+        img.Instagram{
+            margin: 1rem;
+            width: 3rem;
+        }
+    }
+}
+
+//AboutUsMain
+main.AboutUs{
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    div.FirstPage{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin: 2rem;
+            width: 22vw;
+            height: 28vh;
+        }
+        div.BlockText{
+            color: #DFC8C8;
+            font-size: 2rem;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        div.BlockLight{
+            width: 26vw;
+            height: 34vh;
+            background-color: #AF9F8C;
+            margin: 0.5rem;
+            border-radius: 0.5rem;
+            
+        }
+        div.BlockDark{
+            width: 26vw;
+            height: 34vh;
+            background-color: #71675E;
+            margin: 0.5rem;
+            border-radius: 0.5rem;
+        }
+        div.FirstRow{
+            display: flex;
+        }
+        div.SecondRow{
+            display: flex;
+        }
+    }
+    div.SecondPage{
+        width: 100%;
+        height: 80vh;
+        margin-top: 20rem;
+        div.SecondPagePic{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            div.KartMain{
+                width: 60vw;
+                height: 60vh;
+                background-color: #71675E;
+                border-radius: 2rem;
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                div.tittle{
+                    color: white;
+                    font-size: 4rem;
+                    font-weight: bold;
+                    margin-left: 1rem;
+                }
+                div.Content{
+                    position: absolute;
+                    top: 20vh;
+                    left: 10vw;
+                    color: #DFC8C8;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+            img{
+                position: absolute;
+                left: 46vw;
+            }
+        }
+    }
+}

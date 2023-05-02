@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  background-color: #B9D4CB;
+}
+
+header {
+  display: flex;
+  background-color: #AF9F8C;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 12vh;
+  border-radius: 2rem;
+  margin: 1rem;
+  position: sticky;
+  top: 1rem;
+  z-index: 2;
+}
+header div.logo {
+  display: flex;
+  flex: 2 1 2rem;
+  align-items: center;
+  margin-left: 2rem;
+}
+header div.logo img {
+  width: 3vw;
+  height: 3vw;
+  flex: 5 1 2rem;
+}
+header div.logo h1 {
+  font-size: 3rem;
+  flex: 18 1 2rem;
+}
+header nav {
+  flex: 3 1 3rem;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: #474545;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header nav ul li a.OnPage {
+  color: #703F3F;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section.top {
+  display: flex;
+  align-items: center;
+  background-color: #71675E;
+  height: 14vh;
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-top: 3rem;
+}
+section.top div.tittle {
+  display: flex;
+  align-items: center;
+  margin-left: 10rem;
+}
+section.top div.tittle p.FirstFont {
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+section.top div.tittle p.MainFont {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+main section.left {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+main section.left img.LeftPic {
+  width: 22vw;
+  height: 58vh;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+main section.left div.Block1 {
+  width: 22vw;
+  height: 58vh;
+  border-radius: 2rem;
+  background-color: #AF9F8C;
+  display: flex;
+  flex-direction: column;
+}
+main section.left div.Block1 div.Tittlee {
+  display: flex;
+  color: #333030;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+main section.left div.Block1 div.Tittlee div.tittle1 {
+  font-size: 4rem;
+}
+main section.left div.Block1 div.Tittlee div.tittle2 {
+  font-size: 2.5rem;
+}
+main section.left div.Block1 div.NewCommodity {
+  display: flex;
+  justify-content: center;
+  color: #474545;
+  font-weight: bold;
+  font-size: 2rem;
+}
+main section.left div.Block1 div.NewCommodityMain {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  margin: 2rem;
+  font-weight: bold;
+}
+main section.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+main section.right img.RightPic {
+  width: 32vw;
+  height: 32vh;
+  border-radius: 2rem;
+}
+main section.right div.Block2 {
+  width: 37vw;
+  height: 26vh;
+  border-radius: 2rem;
+  margin: 1rem;
+  background-color: #AF9F8C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section.right div.Block2 div.tittle3 {
+  color: #333030;
+  font-size: 2rem;
+  font-weight: bold;
+}
+main section.right div.Block2 div.tittle3Main {
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  background-color: #AF9F8C;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+footer p {
+  flex: 3 1 2rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+  color: #474545;
+  font-weight: bold;
+}
+footer div.SoMe {
+  margin: 2rem;
+  flex: 1 1 2rem;
+}
+footer div.SoMe img.Facebook {
+  margin: 1rem;
+  width: 3rem;
+}
+footer div.SoMe img.Instagram {
+  margin: 1rem;
+  width: 3rem;
+}
+
+main.AboutUs {
+  width: 100%;
+  height: 160vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+main.AboutUs div.FirstPage {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main.AboutUs div.FirstPage img {
+  margin: 2rem;
+  width: 22vw;
+  height: 28vh;
+}
+main.AboutUs div.FirstPage div.BlockText {
+  color: #DFC8C8;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main.AboutUs div.FirstPage div.BlockLight {
+  width: 26vw;
+  height: 34vh;
+  background-color: #AF9F8C;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+main.AboutUs div.FirstPage div.BlockDark {
+  width: 26vw;
+  height: 34vh;
+  background-color: #71675E;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+main.AboutUs div.FirstPage div.FirstRow {
+  display: flex;
+}
+main.AboutUs div.FirstPage div.SecondRow {
+  display: flex;
+}
+main.AboutUs div.SecondPage {
+  width: 100%;
+  height: 80vh;
+  margin-top: 20rem;
+}
+main.AboutUs div.SecondPage div.SecondPagePic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main.AboutUs div.SecondPage div.SecondPagePic div.KartMain {
+  width: 60vw;
+  height: 60vh;
+  background-color: #71675E;
+  border-radius: 2rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+main.AboutUs div.SecondPage div.SecondPagePic div.KartMain div.tittle {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+main.AboutUs div.SecondPage div.SecondPagePic div.KartMain div.Content {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  color: #DFC8C8;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+main.AboutUs div.SecondPage div.SecondPagePic img {
+  position: absolute;
+  left: 46vw;
+}/*# sourceMappingURL=style.css.map */
