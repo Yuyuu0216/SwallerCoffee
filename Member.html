@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swaller Coffee | 關於我們</title>
+    <title>Swaller Coffee || 會員</title>
     <!--Google Font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
                     <a href="./index.html">首頁</a>
                 </li>
                 <li>
-                    <a class="OnPage" href="#">關於我們</a>
+                    <a href="./AboutUs.html">關於我們</a>
                 </li>
                 <li>
                     <a href="#">菜單介紹</a>
@@ -32,7 +32,8 @@
                     <a href="./Location.html">地理位置</a>
                 </li>
                 <li>
-                    <a href="./Member.html">會員</a>
+                    <a class="OnPage" href="#">會員</a>
+                    
                 </li>
             </ul>
         </nav>
@@ -40,43 +41,31 @@
 
     <section class="top">
         <div class="tittle">
-            <p class="FirstFont">關</p>
-            <p class="MainFont">於我們</p>
+            <p class="FirstFont">會</p>
+            <p class="MainFont">員</p>
         </div>
     </section>
-
-    <main class="AboutUs">
-        <div class="FirstPage">
-            <div class="FirstRow">
-                <div class="BlockLight"><img src="./Chicken.png" alt="FriedChicken"></div>
-                <div class="BlockDark BlockText">停下腳步，愜意的喝杯咖啡</div>
-                <div class="BlockLight"><img src="./SeaDrink.png" alt=""></div>
-            </div>
-            <div class="SecondRow">
-                <div class="BlockDark BlockText">對於每一分食材的堅持</div>
-                <div class="BlockLight"><img src="./SeaCoffee.png" alt=""></div>
-                <div class="BlockDark BlockText">充飽電後，好好振作重新出發</div>
-            </div>
-        </div>
-
-        <div class="SecondPage">
-            <div class="SecondPagePic">
-                <div class="KartMain">
-                    <div class="tittle">
-                        出發！快閃餐車！
+    
+    <main>
+        <div class="LoginBlock">
+            <form action="">
+                <div class="InputBlock">
+                    <div class="TextTittle">
+                        <label class="Account" for="Account">帳號/信箱</label>
+                        <label class="Password" for="Password">密碼</label>
                     </div>
-                    <div class="Content">
-                        想給愛人一場難忘的婚宴？
-                        <br>
-                        <br>
-                        想給女朋友驚喜的求婚？
-                        <br>
-                        <br>
-                        餐車出動，使命必達！
+                    <div class="TextInput">
+                        <input class="AccountInput" type="email" name="Account" required>
+                        <input class="PasswordInput" type="password" name="Password" required>
                     </div>
                 </div>
-                <img src="./Kart.png" alt="Kart">
-            </div>
+                <div class="Submit">
+                    <button class="Login">登入</button>
+                    <div class="RegisterBlock">
+                        <a class="Register" href="">註冊</a>
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
 
